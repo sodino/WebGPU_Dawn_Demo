@@ -49,5 +49,7 @@ int main(int argc, char *argv[]) {
   std::cout << "DeviceID: " << std::hex << info.deviceID << std::dec << "\n";
   std::cout << "Name: " << info.device << "\n";
   std::cout << "Driver description: " << info.description << "\n";
+  std::cout << "BackendType: " << info.backendType << "\n";
+  std::cout << "AdapterType: " << info.adapterType << "\n";
   return EXIT_SUCCESS;
 }
